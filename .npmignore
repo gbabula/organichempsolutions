@@ -1,0 +1,6 @@
+.*
+src
+!/src/api
+esdoc.json
+gulpfile.js
+webpack.config.js
