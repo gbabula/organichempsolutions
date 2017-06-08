@@ -1,0 +1,25 @@
+{
+  "name": "newcastleorganix",
+  "description": "New Castle Organix is a provider and manufacturer of High CBD Oils and extracts, premium CBD Feminized Hemp Clones and dried hemp flower, high in CBD.",
+  "version": "0.1.0",
+  "author": "Greg Babula <gbabula@gmail.com> (http://babu.la)",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "open": "open http://localhost:3000",
+    "prelaunch": "echo ' ## \n ## Dont forget to kill the HTTP server with (CTRL + C) when finished! \n ##' || true",
+    "launch": "npm run dev && npm run open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "*",
+    "nprogress": "^0.2.0",
+    "purecss": "^0.6.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
