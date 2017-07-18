@@ -10,8 +10,8 @@ import Head from 'next/head';
 import Header from './global/header';
 import Footer from './global/footer';
 
-const fullTitle = 'New Castle Organix';
-const canonicalUrl = 'https://www.newcastleorganix.com';
+const fullTitle = 'Organic Hemp Solutions';
+const canonicalUrl = 'https://www.organichempsolutions.com';
 const currentYear = new Date().getFullYear();
 const copyright = `${currentYear} ${fullTitle}`;
 
@@ -23,8 +23,8 @@ const copyright = `${currentYear} ${fullTitle}`;
  */
 export default ({
     children,
-    title = {fullTitle},
-    titleLong = 'New Castle Organix | Premium Hemp Clones | Hemp Products',
+    title = fullTitle,
+    titleLong = 'Organic Hemp Solutions | Premium Hemp Clones | Hemp Products',
     description = 'Premium Hemp Clones and Hemp prodcuts for sale.',
     identifier = 'home'
 }) => (
@@ -60,16 +60,9 @@ export default ({
             /* Canonical URL */
             <link rel='canonical' href={canonicalUrl} />
 
-            /* Favicon Setup */
-            <link rel='appleTouchIcon' sizes='180x180' href='/assets/favicon/apple-touch-icon.png' />
-            <link rel='icon' type='image/png' sizes='32x32' href='/assets/favicon/favicon-32x32.png' />
-            <link rel='icon' type='image/png' sizes='16x16' href='/assets/favicon/favicon-16x16.png' />
-            <link rel='manifest' href='/assets/favicon/manifest.json' />
-            <link rel='maskIcon' href='/assets/favicon/safari-pinned-tab.svg' color='#5bbad5' />
-            <link rel='shortcutIcon' href='/assets/favicon/favicon.ico' />
         </Head>
 
-        <Header title identifier />
+        <Header title={title} identifier={identifier} />
         <h1>{title}</h1>
         {children}
         <Footer />

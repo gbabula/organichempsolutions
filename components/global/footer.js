@@ -30,7 +30,7 @@ const style = {
 export default ({ children }) => (
 
     <footer style={style.footer}>
-        <P>Contact us today @ <Link href='mailto:info@newcastleorganix.com'><a>info@newcastleorganix.com</a></Link></P>
+        <P>Contact us today @ <Link href='mailto:info@organichempsolutions.com'><a>info@organichempsolutions.com</a></Link></P>
     </footer>
 
 );

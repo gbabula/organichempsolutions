@@ -1,5 +1,5 @@
 {
-    "name": "New Castle Organix",
+    "name": "Organic Hemp Solutions",
     "icons": [
         {
             "src": "/assets/favicon/android-chrome-36x36.png",
@@ -49,7 +49,7 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://www.newcastleorganix.com/",
+    "start_url": "https://www.organichempsolutions.com/",
     "display": "standalone",
     "orientation": "portrait"
 }
